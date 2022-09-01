@@ -26,4 +26,7 @@ public class UserServiceImp implements UserService {
       return userDao.listUsers();
    }
 
+   public User getUserByCar(String model, int serial) {
+      return userDao.getUserByCar(model, serial);
+   }
 }
